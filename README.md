@@ -1,6 +1,8 @@
 # Gesture-Controlled Robot On/Off Switch
 
-[▶ Watch the robot demo](Real_time_video.mp4)
+![Animated preview of the robot demo](Real_time_video_preview.gif)
+
+[▶ Watch the full video](Real_time_video.mp4)
 
 Real-time hand gesture recognition that starts and stops the trajectory of a **UR3 collaborative robot**. The user shows a gesture to the camera, a machine learning model classifies it, and the result is sent over **TCP/IP** as JSON to the robot control application.
 
@@ -79,5 +81,6 @@ Set the model path in `Real_time_TCP.py` to `RF_model_vsb.p` first. The server l
 | `RF_model_vsb.p` | Trained Random Forest model |
 | `LR_model_vsb.p` | Trained Logistic Regression model |
 | `Real_time_video.mp4` | Demo on the UR3 robot |
+| `Real_time_video_preview.gif` | Auto-playing demo preview (silent, 6 fps) |
 
 **Tech stack:** Python · MediaPipe · OpenCV · scikit-learn · Intel RealSense · TCP/IP · UR3

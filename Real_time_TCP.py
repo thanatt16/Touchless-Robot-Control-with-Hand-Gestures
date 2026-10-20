@@ -45,7 +45,7 @@ server_thread.start()
 
 # Načtení modelu
 try:
-    model_dict = pickle.load(open(r"C:\Users\david\Machine_learning\Diplomova_prace\Strojove_uceni\RF_model_vsb.p", 'rb'))
+    model_dict = pickle.load(open(r"RF_model_vsb.p", 'rb'))
     model = model_dict['RF_model_vsb']
     scaler = model_dict.get('scaler', None)
     print("Model a scaler načten.")
